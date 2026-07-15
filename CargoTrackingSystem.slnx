@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="docker-compose.yml" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="CargoTrackingSystem.Application/CargoTrackingSystem.Application.csproj" />
+  <Project Path="CargoTrackingSystem.Infrastructure/CargoTrackingSystem.Infrastructure.csproj" />
+  <Project Path="CargoTrackingSystem.UnitTests/CargoTrackingSystem.UnitTests.csproj" Id="d705d284-6112-4af1-b835-105785715721" />
+  <Project Path="CargoTrackingSystem.WebAPI/CargoTrackingSystem.WebAPI.csproj" />
+  <Project Path="Domain/CargoTrackingSystem.Domain.csproj" />
+</Solution>
