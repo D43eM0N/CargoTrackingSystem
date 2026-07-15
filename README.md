@@ -19,6 +19,7 @@
 ## Running the Project
 
 ### Prerequisites
+* **Git**: To clone the project from GitHub.
 *   Ensure **Docker Desktop** is installed and running on your machine.
 
 ### Step-by-Step Execution
@@ -32,8 +33,6 @@
 Once the application is up and running, you can explore and test the endpoints directly from your browser:
 
 *   **Scalar Interactive UI:** [http://localhost:5000/scalar/v1](http://localhost:5000/scalar/v1)
-
-> **Note:** For ease of testing during review, the OpenAPI definition and Scalar UI remain active in all environments.
 
 ---
 
