@@ -1,5 +1,5 @@
 ﻿using CargoTrackingSystem.Application.Features.Shipments.Commands.UpdateShipment;
-using CargoTrackingSystem.Application.Validators;
+using CargoTrackingSystem.Application.Validator.Shipment;
 using FluentValidation.TestHelper;
 
 public class UpdateShipmentValidatorTests

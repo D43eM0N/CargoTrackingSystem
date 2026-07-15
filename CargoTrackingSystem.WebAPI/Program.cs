@@ -1,4 +1,5 @@
 using CargoTrackingSystem.Application.Features.Shipment.Commands.CreateShipment;
+using CargoTrackingSystem.Application.Validator.Shipment;
 using CargoTrackingSystem.Infrastructure;
 using CargoTrackingSystem.WebAPI.Middlewares;
 using FluentValidation;
@@ -33,7 +34,7 @@ builder.Services.AddOpenApi(options =>
 );
 
 // Implementing FluenValidation Rules
-builder.Services.AddValidatorsFromAssemblyContaining<CargoTrackingSystem.Application.Validators.CreateShipmentValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateShipmentValidator>();
 
 //Implementing CargoStatusWorker
 builder.Services.AddHostedService<CargoTrackingSystem.Infrastructure.CargoStatusWorker>();

@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using CargoTrackingSystem.Application.Features.Shipments.Commands.UpdateShipment;
 
-namespace CargoTrackingSystem.Application.Validators;
+namespace CargoTrackingSystem.Application.Validator.Shipment;
 
 public class UpdateShipmentValidator : AbstractValidator<UpdateShipment>
 {

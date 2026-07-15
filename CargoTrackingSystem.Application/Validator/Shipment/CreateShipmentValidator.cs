@@ -1,7 +1,7 @@
 ﻿using CargoTrackingSystem.Application.Features.Shipment.Commands.CreateShipment;
 using FluentValidation;
 
-namespace CargoTrackingSystem.Application.Validators;
+namespace CargoTrackingSystem.Application.Validator.Shipment;
 
 public class CreateShipmentValidator : AbstractValidator<CreateShipment>
 {
