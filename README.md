@@ -33,8 +33,6 @@ Once the application is up and running, you can explore and test the endpoints d
 
 *   **Scalar Interactive UI:** [http://localhost:5000/scalar/v1](http://localhost:5000/scalar/v1)
 
-> **Note:** For ease of testing during review, the OpenAPI definition and Scalar UI remain active in all environments.
-
 ---
 
 ##  Usage Notes
