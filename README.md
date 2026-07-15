@@ -19,6 +19,7 @@
 ## Running the Project
 
 ### Prerequisites
+* * **Git**: To clone the project from GitHub.
 *   Ensure **Docker Desktop** is installed and running on your machine.
 
 ### Step-by-Step Execution
